@@ -11,10 +11,10 @@ This program takes a gpa as input and returns one of the following:
 
 Please note this program was written incorrectly on purpose. You will learn to use
 pytest to identify non-error bugs in your code.
-
+s
 '''
 
-gpa = float(input("Enter GPA: "))
+gpa = float(input("Enter GPA: ")) 
 
 if gpa >=0 and gpa <= 4.0:
     if gpa >= 3.8:
