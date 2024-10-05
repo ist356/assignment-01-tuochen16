@@ -10,7 +10,7 @@ For example, if the input is:
 
 The output should be:
 {'odd': [3, 5], 'even': [2, 4, 6]}
-'''
+'''  
  
    num = int(input("Enter a number: "))
    if num == 0:
@@ -20,3 +20,5 @@ The output should be:
    else:
        dictionary['odd'].append(num)
 print(dictionary)
+
+ 
