@@ -11,14 +11,16 @@ For example, if the input is:
 The output should be:
 {'odd': [3, 5], 'even': [2, 4, 6]}
 '''  
+numbers = {'odd': [], 'even': []}
+while True:
+    num = int(input("Number:"))
+    if num == 0:
+        break
+    if num % 2 == 0:
+        numbers['even'].append(num)
+    else:
+        numbers['odd'].append(num)
+print(numbers) 
  
-   num = int(input("Enter a number: "))
-   if num == 0:
-       break
-   if num % 2 == 0:
-       dictionary['even'].append(num)
-   else:
-       dictionary['odd'].append(num)
-print(dictionary)
 
  
