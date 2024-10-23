@@ -14,7 +14,7 @@ pytest to identify non-error bugs in your code.
 s
 '''
 
-gpa = float(input("Enter GPA: "))
+gpa = float(input("Enter GPA: ")) 
 
 if gpa >=0 and gpa <= 4.0:
     if gpa >= 3.8:

@@ -12,7 +12,7 @@ The output should be:
 {'odd': [3, 5], 'even': [2, 4, 6]}
 '''  
 numbers = {'odd': [], 'even': []}
-while True:
+while True: 
     num = int(input("Number:"))
     if num == 0:
         break
