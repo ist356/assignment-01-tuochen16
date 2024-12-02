@@ -25,7 +25,7 @@ if gpa >=0 and gpa <= 4.0:
         result = "Cum Laude"
     elif gpa <= 1.8:
         result = "Academic Probation" 
-    else:
+    else: 
         result = "Passing"
 else:
     result = "Invalid GPA" 
