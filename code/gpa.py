@@ -28,7 +28,7 @@ if gpa >=0 and gpa <= 4.0:
     else:
         result = "Passing"
 else:
-    result = "Invalid GPA"
+    result = "Invalid GPA" 
 
 print(f"for GPA {gpa:.3f} Result: {result}")
 
