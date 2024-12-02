@@ -20,7 +20,7 @@ while True:
         numbers['even'].append(num)
     else:
         numbers['odd'].append(num)
-print(numbers)      
+print(numbers)         
  
 
  
