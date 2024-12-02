@@ -21,10 +21,10 @@ if gpa >=0 and gpa <= 4.0:
         result = "Summa Cum Laude"
     elif gpa >= 3.6:
         result = "Magna Cum Laude"
-    elif gpa >= 3.4:
+    elif gpa >= 3.4: 
         result = "Cum Laude"
     elif gpa <= 1.8:
-        result = "Academic Probation"
+        result = "Academic Probation" 
     else:
         result = "Passing"
 else:
@@ -32,6 +32,6 @@ else:
 
 print(f"for GPA {gpa:.3f} Result: {result}")
 
-
+ 
 
 
